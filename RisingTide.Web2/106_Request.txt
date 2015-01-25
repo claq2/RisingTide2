@@ -1,0 +1,74 @@
+GET https://jmlocalhost3.azure-mobile.net/api/scheduledpayments HTTP/1.1
+Host: jmlocalhost3.azure-mobile.net
+Connection: keep-alive
+Origin: http://jmlocalhost3.com
+X-ZUMO-INSTALLATION-ID: 7d801189-c6e7-736a-589f-cd6d2a02b209
+X-ZUMO-APPLICATION: 000000004010E12B
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+X-ZUMO-VERSION: ZUMO/1.0 (lang=Web; os=--; os_version=--; arch=--; version=1.0.20203.0)
+X-ZUMO-AUTH: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjAifQ.eyJleHAiOjE0MTMzMDAxNzQsImlzcyI6InVybjptaWNyb3NvZnQ6d2luZG93cy1henVyZTp6dW1vIiwidmVyIjoyLCJhdWQiOiJNaWNyb3NvZnRBY2NvdW50IiwidWlkIjoiTWljcm9zb2Z0QWNjb3VudDpiMDQxMWQ1Zjk1ZTA4ZGNjZjkwY2QyNzU1ZTk3Zjk1OSIsInVybjptaWNyb3NvZnQ6Y3JlZGVudGlhbHMiOiJUV3VHLzIrMDVQbXpIVFF5TFBubDlIV0tVb21FSk93WDhYNHladXRKeHI2U05DNjBKTmZJa1Y1S251cHIzR2JGNUQvTVU0eDQyQll2TW8rYWtIR0JNODRXRDJDMUFlcFJNSkVXZFNzYlVYSGpVZGpxR25pMnVscXBubzMxaytoamNlQXBFa2xQVGphNUxhV0NrVGYweUc2TENMNkRTci9VQ1hDbGdaSEczaDR1aTZxdGx3b2FBVE1ISjlzbHp5MGN4N2R4Z1dLUEV2V1UzVHV5UDFaRlhmTHdRNmp1ejNxV3J1SnhVYmVTaWR2T2c1WU9aWDNpOHNXRVBWQW4zWHhCaUNDZ1pGZExWbU9lbWhFazdDWXAyVk5wQ1hrQXY1UnZJcXhGaGpib2lBUXBFMnEwdjlZb05DSWxOVUYxanpsNHhIaGNkcUM4MjRDQ3Y1V0thb25nYXNpcnlLYTlKdVA5VlRCamQ0Nlc0MzRpMm1DYU5TbUY1WXlnRTNPTXFYbHk2bmVXZ0RXemQxUlRtMHlWQ3NGSUFuY2tCeWNKMy9obi9YQUltZVdSVTFIMHROWElIVGFWTWJmWVlJdG81RWlERTdWWlBCYmVZb1FKcTg3NjlvS2JHZzBUN3RZREt1bEp2dmFRSk5BSFFXano1dEcvdFNwQVdpcGRSb2xvY0xoczJOa1IveEpYNHpvVjhCYStTRVFVeStZUHhjSGJrSmtDQVVKdnNrOGZYa3o5UTJJaG9wL3gybGtDMjZsd2hrSmdOZnlXMWpnQkMwNVhSQnRLZDZqdzVsMWhsdHR6QjdJQ0pDNUJHa01rVmpocHRVWGczTjIxQjh0NDluY2wyamhaVm5XSmRUc2VKa0hSUlhab0dHcElON2hNY1Y2RHFSc3FaUDFOUDJHNHFHR2Q5WW11TlgxTklMZDY4dUJZV1dTQ0c0NnN0ZFkvV0U5NFNRU3ZidjZaVm8xbkNoR0JkSzRid2FZemRSaXdzMGRRTEMzNHAvSCt2dFlNVFpmL1FxcmJLNVkxcXVnU1pIRkRZTmJQRldka3hZUTRvakZHb0MreGZkNElsY05nWUs0dlNjMS9xNURhOW5lK1VsRTZoVm90V3ZyaTBOQ0J5ODdsKzdGLzJENy9ISjV1Zi9iY080a0ptZmdtSWQ5SVQ2RnRCalpITTlPY3JGZkxndGtlbkgxUXJMOEpXT0UvN2dSb3hoWVlOYldCM3BZVmpGYzJURUJQbzVyMHE5R1A1ZTA5clJjVUxMSUZQL2tFQ1ZMc3JoYkIyY05McU1uRkdHUWlwaCs0eWcvTGVZaHdveWRqenJNODBOMjM3QnNYUUpNYkRXYVVOeHM3ZCtaWndHS0JyOEd3cDlGMUVER0F6NmZMcjZoZzBXV1RRcEUwa090NWtBZUpXVU1BUmtwNzgvdERUeWhpNUJ0c1FTMGhnTW5ESnlGaHdOVjVDR0JiUnYxVVNDSXBvMmRkb2J6R3ZpWGoreTFuM0Q3ZThLVFBPNHc9In0.DK7QWhA7j4-eJLoEpNn9RT9PJ7S5AgLQ1zHJY9y6hQs
+Accept: */*
+DNT: 1
+Referer: http://jmlocalhost3.com/RisingTide.Web2/
+Accept-Encoding: gzip,deflate
+Accept-Language: en-US,en;q=0.8
+
+
+
+OPTIONS https://jmlocalhost3.azure-mobile.net/api/scheduledpayments HTTP/1.1
+Host: jmlocalhost3.azure-mobile.net
+Connection: keep-alive
+Access-Control-Request-Method: GET
+Origin: http://jmlocalhost3.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Access-Control-Request-Headers: x-zumo-installation-id, x-zumo-application, x-zumo-version, x-zumo-auth
+Accept: */*
+DNT: 1
+Referer: http://jmlocalhost3.com/RisingTide.Web2/
+Accept-Encoding: gzip,deflate
+Accept-Language: en-US,en;q=0.8
+
+
+HTTP/1.1 204 No Content
+Cache-Control: no-cache
+Content-Type: application/json
+Server: Microsoft-IIS/8.0
+x-zumo-version: Zumo.master.0.1.6.3803.Runtime
+Access-Control-Allow-Origin: http://jmlocalhost3.com
+Access-Control-Allow-Headers: x-zumo-installation-id, x-zumo-application, x-zumo-version, x-zumo-auth
+Access-Control-Allow-Methods: GET, PUT, PATCH, POST, DELETE, OPTIONS
+Access-Control-Max-Age: 300
+X-Powered-By: ASP.NET
+Set-Cookie: ARRAffinity=7d51198690a579fd20a213541db9f01e2eb110d00725cc11a85f3f7a0f13f391;Path=/;Domain=jmlocalhost3.azure-mobile.net
+Date: Mon, 15 Sep 2014 21:41:36 GMT
+
+
+GET https://jmlocalhost3.azure-mobile.net/api/scheduledpayments HTTP/1.1
+Host: jmlocalhost3.azure-mobile.net
+Connection: keep-alive
+Origin: http://jmlocalhost3.com
+X-ZUMO-INSTALLATION-ID: 8ff316f2-f7d5-011a-e5f4-cdc2049f129e
+X-ZUMO-APPLICATION: 000000004010E12B
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+X-ZUMO-AUTH: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjAifQ.eyJleHAiOjE0MTM0MDkyOTcsImlzcyI6InVybjptaWNyb3NvZnQ6d2luZG93cy1henVyZTp6dW1vIiwidmVyIjoyLCJhdWQiOiJNaWNyb3NvZnRBY2NvdW50IiwidWlkIjoiTWljcm9zb2Z0QWNjb3VudDpiMDQxMWQ1Zjk1ZTA4ZGNjZjkwY2QyNzU1ZTk3Zjk1OSIsInVybjptaWNyb3NvZnQ6Y3JlZGVudGlhbHMiOiJUV3VHLzIrMDVQbXpIVFF5TFBubDlOM1R0ZDFTK3Z4Mi81ZXRjTFJCcSszUHRySHhVaU03d0RpZGViUlA4NklNUTErMlB1K3YweE9leUIrZFZUVVMrVUxYNmZCRUpzZmFMdmZuOC9ML0N5alJnZzZxc0ZrZkR2N2IxVWVDM21HZlVTRlRZakdxcFE2WUxScXhjZ1FURnVuVUM0MUxoMVVMSlh0OHljUDVmV1F6ZXhZVitHZWh1U0NMOUtzdU9YUlNxTTlCRjlsY3pzdS8xeVQ1VERacTB4eDIzMGhEQmFLZ3NXbXNValpoNTdaRjBabk1OUWVlbkxoMzFRL2ZwQTNRanZvdmF5Si9PS3F4Q2xEK21MMmJYK294cGZtL043bDV5amVoN0Q2bDRvbmNtM3NYQlh6WkpNUm5sWnJDeklmRThZL2pLb08rQ2pVYndmOUJOWktxRHNwUFhULy9jcUIzVU5mbm9td2IzTm1Fbmh5d3IyWURZeGJxRXIwVlRDU29DTnhrUDVhdXlrSGErcFJnV1AwZFV3Q1VqRE5LdGRRbjR2THhWdVFIZlVYeDdPZzk1b3hmaWxsdTF0U3NjU0xXQlk2dGV4YzBLdDhma3R0cTdoWi9kMWhqaG81ZTAzS2xpTUliZFBYbU5kcEYvVmtVa3orTnFkZjgrZHVQTlY0eEtqeGZCNEdCZmFhK3NQVitld1dscnVkYjZkK2Rrc2J2b2crRnBmYXpqTzFyT2xLOERJdHZKV1lmMGljalFGSXhCclI2TGptbHNNVFRzM2hxdml6SzFvUExrTFJPTm5JRXNjZ0FEb09zOEdjb2xCUkc3OHlMRHdDUDdqTW5uaFZ0SjY2cUs5ZjFxdjZkL1g3ZW15cURPODBSQWhLV2hXTU5ZVHRYYjA3WW5yU3VVTFlJSGZmMEovQXhnbVpyS1MwWEtkV2ExTWRzLzBWTU1SSjh2RUxLYlBHRFRjRk9hNFJjQm14YlZRdTBXTWVueXB0SUl4SE1GdnZxOWgrbHdCUFZXb1NJemhTcnkra2FaWjIycE5PZkoycnVpYU84MFJTUkhUaXU1MEJKbEd1bWlTN3lncDdKODRtYkZNT0JQM0RoeDBrYUlxNzZUQW5aOTFDUHB4d2hFbHhvOEVXcWxCUWJHSzhhaHlmRXg1anhaS2FWQmxRYkovN3hBWVoyUEdybjI5QnRBL0Rxb2RUWkxSa2kvNEM0YjdjNi9FTnozMTNaZ2RRdWg2azd0cS9DUkhGQ0FjZU9YbVNqd3AvVkJXU0NVbGFCVEducjRYWGh1WGJXTG51MWt5VE4zRmJlaDdWMjZPUEZaZmRxK2ZsWHVIZ3BNc3Y0Rmdjakl0NHVjMWRaODM5L1BONFNBdW9tSkxSeGN5Yk1mekVCLzBDOGVhM0Nndml6RjJMYjIrcEIzT0dPalZUcnJIY1F5YVNtVGY5L2RiL0dBNVFReGZtTnZtUUJyWW1qN2kwaitnTUZUREFmMnlwdlBUNnpLUnZEeEN6bkhNVVlVSWgyTTBieVBLOVIifQ.7OaeqYMUupmniFyNsraiwdN5F0Ev7Gxp9tvetTheRU8
+X-ZUMO-VERSION: ZUMO/1.0 (lang=Web; os=--; os_version=--; arch=--; version=1.0.20324.0)
+Accept: */*
+DNT: 1
+Referer: http://jmlocalhost3.com/RisingTide.Web2/
+Accept-Encoding: gzip,deflate
+Accept-Language: en-US,en;q=0.8
+If-None-Match: &quot;1978929164&quot;
+
+
+HTTP/1.1 304 Not Modified
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+ETag: &quot;1978929164&quot;
+Server: Microsoft-IIS/8.0
+x-zumo-version: Zumo.master.0.1.6.3803.Runtime
+Access-Control-Allow-Origin: http://jmlocalhost3.com
+X-Powered-By: ASP.NET
+Set-Cookie: ARRAffinity=7d51198690a579fd20a213541db9f01e2eb110d00725cc11a85f3f7a0f13f391;Path=/;Domain=jmlocalhost3.azure-mobile.net
+Date: Mon, 15 Sep 2014 21:41:37 GMT
+
+

@@ -1,0 +1,65 @@
+﻿<section id="scheduledpaymentsedit-view" data-ng-controller="ScheduledPaymentEditController as vm">
+    <h3>Edit Scheduled Payment</h3>
+    <form name="editForm" novalidate>
+        <div>
+            Subject:<input type="text" name="subject" data-ng-model="vm.scheduledPayment.subject" required />
+        </div>
+        <div>
+            Amount:<input type="text" name="amount" data-ng-model="vm.scheduledPayment.amount" required />
+        </div>
+        <div>
+            Type:<label class="radio">
+                <input type="radio" name="paymentType" value="Debit"
+                       data-ng-checked="vm.scheduledPayment.paymentType === 1"
+                       data-ng-model="vm.scheduledPayment.paymentType" />
+                Debit
+            </label>
+            <label class="radio">
+                <input type="radio" name="paymentType" value="Credit"
+                       data-ng-checked="vm.scheduledPayment.paymentType === 0"
+                       data-ng-model="vm.scheduledPayment.paymentType" />
+                Credit
+                <br />
+            </label>
+        </div>
+        <div>
+            Include in cash flow:<label class="radio">
+                <input type="radio" name="includeInCashFlowAnalysis" value="true"
+                       data-ng-checked="vm.scheduledPayment.includeInCashFlowAnalysis === true"
+                       data-ng-model="vm.scheduledPayment.includeInCashFlowAnalysis" />
+                True
+            </label>
+            <label class="radio">
+                <input type="radio" name="includeInCashFlowAnalysis" value="false"
+                       data-ng-checked="vm.scheduledPayment.includeInCashFlowAnalysis === false"
+                       data-ng-model="vm.scheduledPayment.includeInCashFlowAnalysis" />
+                False
+                <br />
+            </label>
+        </div>
+        <div>
+            Recurrence
+            <select name="recurrence" required
+                    data-ng-model="vm.scheduledPayment.recurrence"
+                    data-ng-options="recurrence for recurrence in vm.recurrences">
+                <!--<option value=""></option>-->
+            </select>
+        </div>
+        <div style="display:inline-block; min-height:290px;">
+            Due Date
+            <div class="well well-sm" ng-model="vm.scheduledPayment.dueDate">
+                <datepicker min="minDate" show-weeks="showWeeks"></datepicker>
+            </div>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary" data-ng-click="vm.saveScheduledPayment()">Save</button>
+        </div>
+        <br />
+        <div class="label label-success" data-ng-show="vm.updateStatus">
+            <i class="glyphicon glyphicon-thumbs-up color:white"></i>&nbsp;&nbsp;Scheduled payment updated!
+        </div>
+        <div class="label label-danger" data-ng-show="vm.errorMessage">
+            <i class="glyphicon glyphicon-thumbs-down color:white"></i>&nbsp;&nbsp;Error: {{ vm.errorMessage }}
+        </div>
+    </form>
+</section>

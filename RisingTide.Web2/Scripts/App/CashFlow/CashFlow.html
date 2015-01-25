@@ -1,0 +1,20 @@
+﻿<section id="cashflow-view" data-ng-controller="CashFlowController as vm">
+    <h3>Cash Flow</h3>
+    <form name="editForm" novalidate>
+        <div style="display:inline-block; min-height:290px;">
+            <label>As Of Date</label>
+            <div class="well well-sm" ng-model="vm.asOfDate">
+                <datepicker min="minDate" show-weeks="showWeeks"></datepicker>
+            </div>
+            <div>
+                <label for="startingBalance">Starting Balance:</label> <input id="startingBalance" type="text" ng-model="vm.startingBalance" />
+            </div>
+            <button type="submit" class="btn btn-primary" data-ng-click="vm.update()">Update</button>
+        </div>
+    </form>
+    <chart ng-model='vm.calendarDays'></chart>
+    <br/>
+    <!--<div id="linechart" class="linechart">
+        <linechart data="vm.data" options="vm.options"></linechart>
+    </div>-->
+</section>

@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    James McLachlan -- Developer -- @jamespmclachlan
+
+# THANKS
+
+    Internet
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+	AngularJS

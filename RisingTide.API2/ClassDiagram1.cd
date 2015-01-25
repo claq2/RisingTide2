@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="RisingTide.API.BundleConfig" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.FilterConfig" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.RouteConfig" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.WebApiConfig" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.WebApiApplication" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Controllers.ProjectionController">
+    <Position X="5.25" Y="3.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ProjectionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Controllers.RecurrencesController">
+    <Position X="14.5" Y="3.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\RecurrencesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Controllers.ScheduledPaymentsController">
+    <Position X="10" Y="3.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Controllers\ScheduledPaymentsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Controllers.UpcomingPaymentsController">
+    <Position X="0.5" Y="3.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\UpcomingPaymentsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Models.CalendarDay">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CalendarDay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Models.CashFlowScorer">
+    <Position X="10" Y="12.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAQAAAAAAAAAAAAAAAAEBAAAAAAAEAAA=</HashCode>
+      <FileName>Models\CashFlowScorer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Models.DateTimeExtensions">
+    <Position X="10" Y="14.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DateTimeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Models.ICollectionScheduledPaymentsExtensions">
+    <Position X="10" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAABAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ICollectionScheduledPaymentsExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Models.PaymentType">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="RisingTide.API.Models.PaymentType.Types">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\PaymentType.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PaymentType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Models.Recurrence">
+    <Position X="12.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="RisingTide.API.Models.Recurrence.Types">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Recurrence.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQCAAAAAAAAAEAAgAAAEABgA=</HashCode>
+      <FileName>Models\Recurrence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Models.ScheduledPayment">
+    <Position X="10" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAACIAAIAQAAjAAAAAQAAAAAAUAAAAIkA=</HashCode>
+      <FileName>Models\ScheduledPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Models.ScheduledPaymentService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAoAAAAAAAABAGAAAAABEgAQABAIAAAAAAAEA=</HashCode>
+      <FileName>Models\ScheduledPaymentService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RisingTide.API.Models.ScheduledPaymentTableEntity" Collapsed="true">
+    <Position X="5.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACIAAIAQAADAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ScheduledPaymentTableEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RisingTide.API.Models.SinglePayment">
+    <Position X="0.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAIAQAACBAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SinglePayment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RisingTide.API.Models.SinglePaymentWithDate">
+    <Position X="0.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACYAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SinglePaymentWithDate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="RisingTide.API.Models.IScheduledPaymentService" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAoAAAAAAAABAAAAAAAAEAAQAAAIAAAAAAAAA=</HashCode>
+      <FileName>Models\IScheduledPaymentService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
