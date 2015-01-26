@@ -1,4 +1,6 @@
-﻿(function () {
+﻿// Author: Dan Wahlin
+// Found in https://github.com/DanWahlin/CustomerManagerStandard/tree/master/CustomerManager/app/wc.directives/directives
+(function () {
 
     var wcOverlayDirective = function ($q, $timeout, $window, httpInterceptor) {
         return {
