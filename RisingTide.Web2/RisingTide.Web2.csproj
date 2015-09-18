@@ -21,6 +21,7 @@
     <TypeScriptAdditionalFlags>
     </TypeScriptAdditionalFlags>
     <TypeScriptEnableCompileOnSave>true</TypeScriptEnableCompileOnSave>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -264,7 +265,6 @@
     <Content Include="Scripts\typings\angularjs\angular-sanitize.d.ts" />
     <Content Include="Scripts\typings\angularjs\angular-scenario.d.ts" />
     <Content Include="Scripts\typings\angularjs\angular.d.ts" />
-    <Content Include="Scripts\typings\flot\jquery.flot.d.ts" />
     <Content Include="Scripts\typings\toastr\toastr.d.ts" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
@@ -280,6 +280,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\toastr.min.js.map" />
+    <TypeScriptCompile Include="Scripts\typings\flot\jquery.flot.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
   <ItemGroup>
